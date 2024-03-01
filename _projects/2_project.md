@@ -3,7 +3,7 @@ layout: page
 title: Implicit Neural Representations
 description: This is a project on neural implicit representation of a deep network that can be used to memorize an image or even reconstruct it from non-linear measurements.
 img: assets/img/INR.png
-importance: 1
+importance: 2
 ---
 
 Implicitly defined signal representations, characterized by their continuity and differentiability and parameterized through neural networks, have emerged as a potent paradigm, presenting numerous potential advantages over traditional representations. This project focused on implementing four distinct variants of Implicit Neural Networks (INNs), exploring their applications in various contexts.
