@@ -12,6 +12,14 @@ Navigating in cluttered environments presents significant challenges for autonom
 Within our methodology, pre-generated paths are overlaid onto a grid, which is then convolved with the obstacle map to remove paths that run through obstacles.The planner evaluates and scores the remaining trajectories, selecting the optimal path with minimal cost. This approach enables obstacle avoidance and trajectory selection within a timeframe of under 11 milliseconds. 
 To validate our approach,we conducted thorough experiments, testing our methodology in simulations using Gazebo and in real-world scenarios with an RC car, to confirm its effectiveness.
 <br>
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/pathplanner.png"  title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div> 
+<div class="caption">
+    The trajectory-library navigating through the cluttered environment
+</div>
 **Path Generation**:<br>
 The paths were generated using the kinematic bicycle model(KBM) and are kindoynamically feasible paths.
 
@@ -27,12 +35,12 @@ The paths were generated using the kinematic bicycle model(KBM) and are kindoyna
 
 **Correspondence Generation**:<br>
 
-* Item The generated paths are overlaid on a grid,which is then convolved with the obstacle map for collision checking
-* Item The robot’s footprint is accounted for in this step 
-* Item Makes the overall process computationally cheap
+* The generated paths are overlaid on a grid,which is then convolved with the obstacle map for collision checking.
+* The robot’s footprint is accounted for in this step.
+* This makes the overall process computationally cheap and can run seamlessly on real robots.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-3">
         {% include figure.html path="assets/img/corres.png"  title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div> 
@@ -47,13 +55,13 @@ The trajectory library outperforms Fast Likelihood-based Collision Avoidance (FA
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/2ms.png"  title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/2ms.png"  title="example image" class="rounded mx-auto d-block" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/4ms.png"  title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-3">
+        {% include figure.html path="assets/img/4ms.png"  title="example image" class="rounded mx-auto d-block" %}
     </div>
-        <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6ms.png"  title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="col-sm mt-3 mt-md-6">
+        {% include figure.html path="assets/img/6ms.png"  title="example image" class="rounded mx-auto d-block" %}
     </div>
 </div> 
 <div class="caption">
