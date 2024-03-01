@@ -3,7 +3,7 @@ layout: page
 title: A Sequential Quadratic Program Solver using ProxQP
 description: Developed an SQP solver and compared its performance on a series of problems, benchmarking different QP solvers
 img: assets/img/ocrl.png
-importance: 1
+importance: 2
 category: Research
 # related_publications: einstein1956investigations, einstein1950meaning
 ---
