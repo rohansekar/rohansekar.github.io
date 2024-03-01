@@ -4,6 +4,7 @@ title: Real-time Lattice Based A* Planning for RC Cars
 description: Deploying an A*star based local planner
 img: assets/img/astar2.png
 importance: 5
+category: Robotics
 ---
 
 
