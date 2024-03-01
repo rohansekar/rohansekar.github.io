@@ -61,11 +61,3 @@ display_categories: [Research]
 {%- endif -%}
 </div>
 
-
-<div class="publications">
-
-{% bibliography -f {{ site.scholar.bibliography }} %}
-
-</div> -%}
-</div>
-
