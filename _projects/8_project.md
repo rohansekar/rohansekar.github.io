@@ -23,7 +23,7 @@ The centralized behavior tree runs on a base station, commanding individual robo
 </div>
 
 <video controls="" width="320" height="240" muted="" loop="" autoplay="">
-<source src="https://github.com/rohansekar/rohansekar.github.io/tree/main/assets/video/BehaviorTrees.mp4" type="video/mp4">
+<source src="./assets/video/BehaviorTrees.mp4" type="video/mp4">
 </video>
 
 <div class="caption">
