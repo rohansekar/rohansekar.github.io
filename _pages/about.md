@@ -24,7 +24,7 @@ Hi! My name is Rohan Chandrasekar. I am a second-year master's student in Mechan
 
 I am actively looking for Software Engineer roles in Planning,Controls and Systems starting May 2023.You can find my projects on [Github!](https://github.com/rohansekar) And if you want to connect and talk about anything related to robotics, you can find me on [LinkedIn](https://www.linkedin.com/in/rohan-shekhar/).
 
-##### Organizations I have been a part of
+**Organizations I have been a part of**
 
 
 <div class="row">
