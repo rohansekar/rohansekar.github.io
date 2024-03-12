@@ -2,7 +2,7 @@
 layout: page
 title: Optimized Path Planning for Ground Robots:A Trajectory Library based Local Planner for Unstructured Environments
 description: A robust local planner to navigate unstructured and complex environments
-img: assets/img/pathplanner.png
+img: assets/img/path_pc.png
 importance: 1
 category: Research
 # related_publications: einstein1956investigations, einstein1950meaning
