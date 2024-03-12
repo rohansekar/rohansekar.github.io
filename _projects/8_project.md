@@ -43,7 +43,9 @@ The decentralized behavior tree runs on the robot,which means that we can have d
     The decentralized behavior architecture
 </div>
 
-<video src="assets/video/BehaviorTrees.mp4" width="320" height="240" controls></video>
+<video controls autoplay>
+  <source src="assets/video/BehaviorTrees.mp4" type="video/mp4">
+</video>
 
 <div class="caption">
     Working of the centralized behavior tree in real-time
