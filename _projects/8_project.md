@@ -22,9 +22,9 @@ The centralized behavior tree runs on a base station, commanding individual robo
     The centralized behavior tree structure
 </div>
 
-<video controls="" width="320" height="240" muted="" loop="" autoplay="">
-<source src="./assets/video/BehaviorTrees.mp4" type="video/mp4">
-</video>
+<div class="col-sm mt-3 mt-md-0">
+        {% include video.html path="assets/video/BehaviorTrees.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+</div>
 
 <div class="caption">
     Working of the centralized behavior tree in real-time
@@ -32,7 +32,7 @@ The centralized behavior tree runs on a base station, commanding individual robo
 
 **The decentralized behavior tree**:<br>
 
-The decentralized behavior tree runs on the robot,which means that we can have different behavior trees for different types of robots.This also ensures that the computational load on the basestation is reduced.Additionally,this also ensures that any communication delays between the operator and the robot does not come in the way of choosing a mode.
+The decentralized behavior tree runs on the robot, allowing for different behavior trees tailored to different types of robots. This approach also reduces the computational load on the base station. Additionally, it ensures that communication delays between the operator and the robot do not hinder mode selection.
 <br>
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -41,14 +41,6 @@ The decentralized behavior tree runs on the robot,which means that we can have d
 </div> 
 <div class="caption">
     The decentralized behavior architecture
-</div>
-
-<video controls autoplay>
-  <source src="assets/video/BehaviorTrees.mp4" type="video/mp4">
-</video>
-
-<div class="caption">
-    Working of the centralized behavior tree in real-time
 </div>
 
 
