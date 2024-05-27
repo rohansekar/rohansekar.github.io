@@ -3,7 +3,7 @@ layout: page
 title: Master's Thesis:A Trajectory Library-Based Local Planner for Ground Robots in Unstructured Environments
 description: A robust local planner to navigate unstructured and complex environments
 img: assets/img/path_pc.png
-redirect: ../assets/pdf/RohanThesis.pdf
+redirect: https://drive.google.com/file/d/1mvF6ClwuVw1otDfKOzk5C149VQME2Mf9/view?usp=drive_link
 importance: 1
 category: Research
 ---
