@@ -20,9 +20,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! My name is Rohan Chandrasekar. I am a second-year master's student in Mechanical Engineering at Carnegie Mellon University with a concentration in **Robotics**.My major interests include working path planning and controls for autonomous agents.Currently, I am working in the [Biorobotics Lab](http://biorobotics.ri.cmu.edu/index.php),where I work on a multi-agent exploration project,called [MMPUG](https://www.ri.cmu.edu/project/mmpug-multi-model-perception-uber-good/).
+Hi! My name is Rohan Chandrasekar. I'm a second-year master's student in Mechanical Engineering at Carnegie Mellon University, specializing in Robotics. My interests lie in path planning and controls for autonomous agents. Currently, I'm involved in the [Biorobotics Lab](http://biorobotics.ri.cmu.edu/index.php) at Carnegie Mellon University, working on the [MMPUG](https://www.ri.cmu.edu/project/mmpug-multi-model-perception-uber-good/) (Multi-Model Perception Uber Good) project, focusing on multi-agent exploration.
 
-I am actively looking for Robotics Software Engineer roles specializing in Planning,Controls and Systems starting May 2023.You can find my projects on [Github!](https://github.com/rohansekar) If you want to connect and talk about anything related to robotics, you can find me on [LinkedIn](https://www.linkedin.com/in/rohan-shekhar/)!
+I'm actively seeking Robotics Software Engineer roles specializing in Planning, Controls, and Systems starting May 2023. You can check out my projects on [GitHub](https://github.com/rohansekar) and connect with me on [LinkedIn](https://www.linkedin.com/in/rohan-shekhar/) if you'd like to discuss anything related to robotics!
+
 
 **Organizations I have been a part of**
 
@@ -36,5 +37,8 @@ I am actively looking for Robotics Software Engineer roles specializing in Plann
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <a href="https://www.cmu.edu/">{% include figure.html path="assets/img/about/cmu_icon.png" title="CMU Logo" class="img-fluid rounded z-depth-1" %}</a>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <a href="https://www.cmu.edu/">{% include figure.html path="assets/img/about/cmumeche.png" title="CMU Logo" class="img-fluid rounded z-depth-1" %}</a>
     </div>
 </div>

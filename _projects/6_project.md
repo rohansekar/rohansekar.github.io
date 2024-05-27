@@ -3,7 +3,7 @@ layout: page
 title: Controlling a wheeled double pendulum robot
 description: Devising control strategies for a wheeled double pendulum robot
 img: assets/img/wheeled.png
-importance: 6
+importance: 1
 category: Robotics
 ---
 
