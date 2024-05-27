@@ -3,7 +3,7 @@ layout: page
 title: Real-time Lattice Based A* Planning for RC Cars
 description: Deploying an A*star based local planner
 img: assets/img/astar2.png
-importance: 5
+importance: 2
 category: Robotics
 ---
 
@@ -11,7 +11,7 @@ category: Robotics
 The primary focus of this project centers on the development of a local planner for an RC car.A planner has been constructed to generate kino-dynamically feasible paths, utilizing a kinematic bicycle model (KBM).The generated paths form a graph, and an A* algorithm is employed for graph search, with the euclidean distance serving as the heuristic to navigate towards the goal.Paths intersecting with obstacles are eliminated from consideration, and obstacle detection is carried out using a simulated Velodyne lidar.The selected path is executed using an iLQR (Iterative Linear Quadratic Regulator) controller.The entire implementation is tested within a simulated Gazebo world.
 <div class="row justify-content-sm-center">
      <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Figure_1.png" title="example image" class="img-fluid rounded z-depth-1"  %}
+        {% include figure.html path="assets/img/path.png" title="example image" class="img-fluid rounded z-depth-1"  %}
     </div>
 </div> 
 <div class="caption">

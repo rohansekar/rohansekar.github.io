@@ -3,7 +3,7 @@ layout: page
 title: Race Car Control Optimization
 description: Deploying various controllers for race car control
 img: assets/img/racecar.png
-importance: 4
+importance: 2
 category: Robotics
 ---
 In the month-long project titled "Race Car Control Optimization and LQR Integration," spanning from October 22 to November 22, our objective was to comprehensively explore control strategies to enhance the performance of a race car in a simulation environment.

@@ -3,8 +3,8 @@ layout: page
 title: Uncovering hidden patterns:Study on masked autoencoders
 description: Exploring masked autoencoders for the purpose of reconstructing an image from a masked input image.
 img: assets/img/ae2.png
-importance: 3
-category: Robotics
+importance: 2
+category: Deep Learning
 ---
 
 An autoencoder is a type of artificial neural network used to learn efficient codings of unlabeled data (unsupervised learning). An autoencoder learns two functions: an encoding function that transforms the input data, and a decoding function that recreates the input data from the encoded representation.<br>

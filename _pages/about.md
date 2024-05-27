@@ -20,9 +20,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! My name is Rohan Chandrasekar. I am a second-year master's student in Mechanical Engineering at Carnegie Mellon University with a concentration in **Robotics**.My major interests include working Path Planning and Controls for autonomous agents.Currently, I am working in the [Biorobotics Lab](http://biorobotics.ri.cmu.edu/index.php),where I work on a multi-agent exploration project,called [MMPUG](https://www.ri.cmu.edu/project/mmpug-multi-model-perception-uber-good/).
+Hi! My name is Rohan Chandrasekar. I am a second-year master's student in Mechanical Engineering at Carnegie Mellon University with a concentration in **Robotics**.My major interests include working path planning and controls for autonomous agents.Currently, I am working in the [Biorobotics Lab](http://biorobotics.ri.cmu.edu/index.php),where I work on a multi-agent exploration project,called [MMPUG](https://www.ri.cmu.edu/project/mmpug-multi-model-perception-uber-good/).
 
-I am actively looking for Software Engineer roles in Planning,Controls and Systems starting May 2023.You can find my projects on [Github!](https://github.com/rohansekar) And if you want to connect and talk about anything related to robotics, you can find me on [LinkedIn](https://www.linkedin.com/in/rohan-shekhar/).
+I am actively looking for Robotics Software Engineer roles specializing in Planning,Controls and Systems starting May 2023.You can find my projects on [Github!](https://github.com/rohansekar) If you want to connect and talk about anything related to robotics, you can find me on [LinkedIn](https://www.linkedin.com/in/rohan-shekhar/)!
 
 **Organizations I have been a part of**
 
