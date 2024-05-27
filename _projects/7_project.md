@@ -3,7 +3,7 @@ layout: page
 title: Master's Thesis:A Trajectory Library-Based Local Planner for Ground Robots in Unstructured Environments
 description: A robust local planner to navigate unstructured and complex environments
 img: assets/img/path_pc.png
-redirect_to: ../assets/pdf/RohanThesis.pdf
+redirect: ../assets/pdf/RohanThesis.pdf
 importance: 1
 category: Research
 ---
@@ -98,11 +98,3 @@ At higher speeds, the iLQR controller excels in tracking the paths provided by t
         {% include figure.html path="assets/img/cte_6.png"  title="6m/s" class="rounded mx-auto d-block" %}
     </div>
 </div> 
-
-The thesis can be read here:
-
-<div class="post">
-
-<embed src="../assets/pdf/RohanResume.pdf" width="100%" height="1000" type='application/pdf'></object>
-
-</div>
