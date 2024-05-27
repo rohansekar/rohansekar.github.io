@@ -1,15 +1,14 @@
 ---
 layout: page
 title: Master's Thesis:A Trajectory Library-Based Local Planner for Ground Robots in Unstructured Environments
-description: Navigating in cluttered environments presents significant challenges for autonomous systems. Although finding the shortest path from a start to a goal location is a well-addressed problem, as robots traverse this path, they encounter numerous unforeseen obstacles that are not accounted for in the initial global plan.  These obstacles are dynamic in nature, making it difficult to establish a reliable path over time. Several works like A* and RRT generate real-time plans for robots as they navigate through an environment but often fail to incorporate the dynamics involved. In this work, we introduce a trajectory-library-based local planner designed for high-speed, non-holonomic autonomous ground robots. This planner not only adeptly navigates the dynamic challenges of the environment but also accounts for the dynamics of the robot.
-In this trajectory-library-based local planner, the knowledge of the robot's dynamics is leveraged to generate trajectories at varying speeds. These pre-computed trajectories are then overlaid onto a grid while also considering the robot's footprint. This grid is then convolved with the obstacle map, effectively filtering out any paths that intersect with obstacles. This streamlined collision-checking process is executed in less than two milliseconds, facilitating rapid decision-making. To validate our approach, we tested our methodology both in simulated environments using Gazebo and through practical trials with an RC car in real-world scenarios.
+description: A robust local planner to navigate unstructured and complex environments
 img: assets/img/path_pc.png
-redirect_to: /assets/pdf/RohanThesis.pdf
+redirect_to: ../assets/pdf/RohanThesis.pdf
 importance: 1
 category: Research
 ---
 
-<!-- Navigating in cluttered environments presents significant challenges for autonomous systems. Although finding the shortest path from a start to a goal location is a well-addressed problem, as robots traverse this path, they encounter numerous unforeseen obstacles that are not accounted for in the initial global plan.  These obstacles are dynamic in nature, making it difficult to establish a reliable path over time. Several works like A* and RRT generate real-time plans for robots as they navigate through an environment but often fail to incorporate the dynamics involved. In this work, we introduce a trajectory-library-based local planner designed for high-speed, non-holonomic autonomous ground robots. This planner not only adeptly navigates the dynamic challenges of the environment but also accounts for the dynamics of the robot.
+Navigating in cluttered environments presents significant challenges for autonomous systems. Although finding the shortest path from a start to a goal location is a well-addressed problem, as robots traverse this path, they encounter numerous unforeseen obstacles that are not accounted for in the initial global plan.  These obstacles are dynamic in nature, making it difficult to establish a reliable path over time. Several works like A* and RRT generate real-time plans for robots as they navigate through an environment but often fail to incorporate the dynamics involved. In this work, we introduce a trajectory-library-based local planner designed for high-speed, non-holonomic autonomous ground robots. This planner not only adeptly navigates the dynamic challenges of the environment but also accounts for the dynamics of the robot.
 In this trajectory-library-based local planner, the knowledge of the robot's dynamics is leveraged to generate trajectories at varying speeds. These pre-computed trajectories are then overlaid onto a grid while also considering the robot's footprint. This grid is then convolved with the obstacle map, effectively filtering out any paths that intersect with obstacles. This streamlined collision-checking process is executed in less than two milliseconds, facilitating rapid decision-making. To validate our approach, we tested our methodology both in simulated environments using Gazebo and through practical trials with an RC car in real-world scenarios.
 <br>
 <div class="row justify-content-sm-center">
@@ -106,4 +105,4 @@ The thesis can be read here:
 
 <embed src="../assets/pdf/RohanResume.pdf" width="100%" height="1000" type='application/pdf'></object>
 
-</div> -->
+</div>
