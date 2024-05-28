@@ -1,9 +1,9 @@
 ---
 layout: page
-title:  Centralized and Decentralized Behavior Trees for Heterogenous Robotic Systems
+title:  Centralized and Decentralized Behavior Trees for Heterogeneous Robotic Systems
 description: Deploying decentralized and centralized behavior trees for complex robotic systems to attain increased modularity
 img: assets/img/bt_1.png
-importance: 1
+importance: 2
 category: Research
 # related_publications: einstein1956investigations, einstein1950meaning
 ---
