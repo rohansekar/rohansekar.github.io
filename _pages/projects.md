@@ -6,7 +6,7 @@ description:
 nav: true
 nav_order: 2
 horizontal: false
-display_categories: [Robotics]
+display_categories: [Robotics,Deep Learning]
 ---
 
 <div class="projects">

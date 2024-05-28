@@ -1,7 +1,7 @@
 ---
 layout: page
 title: A move-out-of-the-way algorithm for a heterogeneous multi-robot system
-description: 
+description: A robust multi-agent planning algorithm to avoid collisions between robots.
 img: assets/img/robots.jpg
 importance: 4
 category: Research

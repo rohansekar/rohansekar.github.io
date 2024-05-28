@@ -1,9 +1,9 @@
 ---
 layout: page
-title: CI/CD pipeline for a full-scale robotic system
-description: 
+title: A CI/CD pipeline for a full-scale robotic system
+description: Writing test cases and setting up a CI/CD pipeline for a complex and a full-scale robotic system
 img: assets/img/cicd.png
-importance: 4
+importance: 5
 category: Research
 # related_publications: einstein1956investigations, einstein1950meaning
 ---

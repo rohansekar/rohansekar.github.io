@@ -3,7 +3,7 @@ layout: page
 title: A graphical user interface for a heterogeneous multi-robot system
 description: Designing a GUI for a robotic system using the Qt framework
 img: assets/img/gui.png
-importance: 1
+importance: 3
 category: Research
 # related_publications: einstein1956investigations, einstein1950meaning
 ---
