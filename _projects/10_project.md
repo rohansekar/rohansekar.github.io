@@ -1,8 +1,8 @@
 ---
 layout: page
-title: A move-out-of-the-way algorihtm for a heterogeneous multi-robot system
+title: A move-out-of-the-way algorithm for a heterogeneous multi-robot system
 description: 
-img: assets/img/robots.png
+img: assets/img/robots.jpg
 importance: 1
 category: Research
 # related_publications: einstein1956investigations, einstein1950meaning
@@ -13,7 +13,7 @@ The way this is done is that the positions of all the robots in the system is br
 <br>
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/robots.png"  title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/robots.jpg"  title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div> 
 <div class="caption">
