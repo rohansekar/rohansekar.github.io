@@ -27,5 +27,4 @@ Some of the results that were got with the PID and LQR controllers are:
     PID following a sine wave
 </div>
 
-For more information,read our report:<br>
-https://drive.google.com/file/d/1EzeNNdNugV0EUZQofzTWvP74nE7-yNlV/view?usp=drive_link
+For more information,read our [report]https://drive.google.com/file/d/1EzeNNdNugV0EUZQofzTWvP74nE7-yNlV/view?usp=drive_link:<br>

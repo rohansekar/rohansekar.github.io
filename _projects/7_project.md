@@ -1,100 +1,35 @@
 ---
 layout: page
-title: Master's Thesis:A Trajectory Library-Based Local Planner for Ground Robots in Unstructured Environments
-description: A robust local planner to navigate unstructured and complex environments
-img: assets/img/path_pc.png
-redirect: https://drive.google.com/file/d/1mvF6ClwuVw1otDfKOzk5C149VQME2Mf9/view?usp=drive_link
+title: Real-time Lattice Based A* Planning for RC Cars
+description: Deploying an A*star based local planner
+img: assets/img/astar2.png
 importance: 1
-category: Research
+category: Robotics
 ---
 
-Navigating in cluttered environments presents significant challenges for autonomous systems. Although finding the shortest path from a start to a goal location is a well-addressed problem, as robots traverse this path, they encounter numerous unforeseen obstacles that are not accounted for in the initial global plan.  These obstacles are dynamic in nature, making it difficult to establish a reliable path over time. Several works like A* and RRT generate real-time plans for robots as they navigate through an environment but often fail to incorporate the dynamics involved. In this work, we introduce a trajectory-library-based local planner designed for high-speed, non-holonomic autonomous ground robots. This planner not only adeptly navigates the dynamic challenges of the environment but also accounts for the dynamics of the robot.
-In this trajectory-library-based local planner, the knowledge of the robot's dynamics is leveraged to generate trajectories at varying speeds. These pre-computed trajectories are then overlaid onto a grid while also considering the robot's footprint. This grid is then convolved with the obstacle map, effectively filtering out any paths that intersect with obstacles. This streamlined collision-checking process is executed in less than two milliseconds, facilitating rapid decision-making. To validate our approach, we tested our methodology both in simulated environments using Gazebo and through practical trials with an RC car in real-world scenarios.
-<br>
+
+The primary focus of this project centers on the development of a local planner for an RC car.A planner has been constructed to generate kino-dynamically feasible paths, utilizing a kinematic bicycle model (KBM).The generated paths form a graph, and an A* algorithm is employed for graph search, with the euclidean distance serving as the heuristic to navigate towards the goal.Paths intersecting with obstacles are eliminated from consideration, and obstacle detection is carried out using a simulated Velodyne lidar.The selected path is executed using an iLQR (Iterative Linear Quadratic Regulator) controller.The entire implementation is tested within a simulated Gazebo world.
 <div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/pathplanner.png"  title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/path_pc.png"  title="example image" class="img-fluid rounded z-depth-1" %}
+     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/path.png" title="example image" class="img-fluid rounded z-depth-1"  %}
     </div>
 </div> 
 <div class="caption">
-    The trajectory-library navigating through the cluttered environment
+    The generated paths
 </div>
-**Path Generation**:<br>
-The paths were generated using the kinematic bicycle model(KBM) and are kindoynamically feasible paths.
 
+
+**Results:**<br>
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/pathss.png"  title="example image" class="img-fluid rounded z-depth-1" %}
+     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/astar2.png" title="example image" class="img-fluid rounded z-depth-1"  %}
     </div>
 </div> 
 <div class="caption">
-    The generated paths using the KBM model
+    Visualizing the A star algorithm running in real-time
 </div>
 
-**Correspondence Generation**:<br>
-
-* The generated paths are overlaid on a grid,which is then convolved with the obstacle map for collision checking.
-* The robot’s footprint is accounted for in this step.
-* This makes the overall process computationally cheap and can run seamlessly on real robots.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/corres_green.png"  title="example image" class="rounded mx-auto d-block" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/corres_red.png"  title="example image" class="rounded mx-auto d-block" %}
-    </div>
-</div> 
-<div class="caption">
-    The generated grid is overlayed on the obstacle map to cancel out paths
-</div>
-
-
-<br>
-**Results and Comparison at Different Speeds :**<br>
-The trajectory library outperforms Fast Likelihood-based Collision Avoidance (FALCO)[1] overall in terms of success rate in performance, average directional error, enhancing responsiveness, and average cross-track error.
-
-In terms of success rates,the trajectory library demonstrates superior success rates in executing turns at different speeds compared to FALCO.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/graph1.png"  title="2m/s" class="rounded mx-auto d-block" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/graph2.png"  title="4m/s" class="rounded mx-auto d-block" %}
-    </div>
-        <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/graph3.png"  title="6m/s" class="rounded mx-auto d-block" %}
-    </div>
-</div> 
-<div class="caption">
-    Trajectory library's success rate while making turns in comparison to FALCO
-</div>
-
-At higher speeds, the trajectory library exhibits reduced directional error compared to FALCO.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/direc_4.png"  title="4m/s" class="rounded mx-auto d-block" %}
-    </div>
-        <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/direc_6.png"  title="6m/s" class="rounded mx-auto d-block" %}
-    </div>
-</div> 
-<div class="caption">
-    Comparison of directional error between the trajectory library and FALCO
-</div>
-
-At higher speeds, the iLQR controller excels in tracking the paths provided by the trajectory library over FALCO
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/cte_4.png"  title="4m/s" class="rounded mx-auto d-block" %}
-    </div>
-        <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/cte_6.png"  title="6m/s" class="rounded mx-auto d-block" %}
-    </div>
-</div> 
+The planner is tested by using an occupancy grid of the environment to check if the right path is chosen.Since the total number of paths are 50 and every path consists of 100 points, doing a large number of expansions will make the planner slow and will hinder the performance as we want the planner to run at 10Hz at all times.So in this project,we do 5 expansions and choose the best path from that.THis makes sure that the path with the least cost is chosen using A start whilst running the planner constantly at 10Hz.<br>
+**Conclusion:**<br>
+In conclusion, the project's successful implementation of  a lattice based A star local planner proves that best-first search algorithms can be deployed for real-time planning as long as the number of paths to evaluate is reasonable.
