@@ -20,7 +20,7 @@ Some of the results that were got with the PID and LQR controllers are:
 </div>
 
 <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/wheeled2.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.html path="assets/video/wheeled22.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
 </div>
 
 <div class="caption">
