@@ -12,7 +12,7 @@ Wheeled pendulum systems can be found across society, such as in transportation 
 Some of the results that were got with the PID and LQR controllers are:
 
 <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/wheeled1.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.html path="assets/video/wheeled11.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
 </div>
 
 <div class="caption">
@@ -27,5 +27,5 @@ Some of the results that were got with the PID and LQR controllers are:
     PID following a sine wave
 </div>
 
-For more information,read our report:
+For more information,read our report:<br>
 https://drive.google.com/file/d/1EzeNNdNugV0EUZQofzTWvP74nE7-yNlV/view?usp=drive_link
