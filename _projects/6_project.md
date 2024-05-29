@@ -7,27 +7,25 @@ importance: 1
 category: Robotics
 ---
 
-<div class="row justify-content-sm-center">
-     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Figure_1.png" title="example image" class="img-fluid rounded z-depth-1"  %}
-    </div>
-</div> 
-<div class="caption">
-    The generated paths
+Wheeled pendulum systems can be found across society, such as in transportation systems like the Segway and in self-balancing robots. As these types of technologies become more commonplace in our daily lives, it is important to find control strategies that maintain their stability under disturbances to ensure the safety of human operators and bystanders. Although researchers have previously modeled wheeled inverted pendulum systems, there is little work explaining wheeled double pendulum systems, which could represent a human carrying a payload while on a Segway. This report discusses several control strategies -- including PID, LQR, and input shaping -- to stabilize a wheeled double pendulum and prevent oscillations in the upper pendulum. After modeling the system using Lagrangian mechanics, controllers and an observer were designed in MATLAB and simulated in both Simulink and Simscape to compare performance in tracking point-to-point trajectories. Additionally, an Elegoo Tumbller self-balancing robot was modified to include a second pendulum to test these controllers on hardware. While the PID and LQR controllers were able to stabilize the system, prevent oscillations, and follow trajectories both in simulation and hardware, the upper pendulum minimally oscillated due to friction on its pivot point in the physical system. 
+
+Some of the results that were got with the PID and LQR controllers are:
+
+<div class="col-sm mt-3 mt-md-0">
+        {% include video.html path="assets/video/wheeled1.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
 </div>
 
-
-**Results:**<br>
-
-<div class="row justify-content-sm-center">
-     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/astar2.png" title="example image" class="img-fluid rounded z-depth-1"  %}
-    </div>
-</div> 
 <div class="caption">
-    Visualizing the A star algorithm running in real-time
+    Following the minimum jerk trajectory with LQR
 </div>
 
-The planner is tested by using an occupancy grid of the environment to check if the right path is chosen.Since the total number of paths are 50 and every path consists of 100 points, doing a large number of expansions will make the planner slow and will hinder the performance as we want the planner to run at 10Hz at all times.So in this project,we do 5 expansions and choose the best path from that.THis makes sure that the path with the least cost is chosen using A start whilst running the planner constantly at 10Hz.<br>
-**Conclusion:**<br>
-In conclusion, the project's successful implementation of  a lattice based A star local planner proves that best-first search algorithms can be deployed for real-time planning as long as the number of paths to evaluate is reasonable.
+<div class="col-sm mt-3 mt-md-0">
+        {% include video.html path="assets/video/wheeled2.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+</div>
+
+<div class="caption">
+    PID following a sine wave
+</div>
+
+For more information,read our report:
+https://drive.google.com/file/d/1EzeNNdNugV0EUZQofzTWvP74nE7-yNlV/view?usp=drive_link
